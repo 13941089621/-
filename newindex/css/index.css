@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #eeeeee;
+}
+
+.btn_name {
+	border: none;
+	outline: none;
+	/*将默认的select选择框样式清除*/
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	/*在选择框的最右侧中间显示小箭头图片*/
+/*	background: url() no-repeat scroll right center transparent;*/
+}
+
+
+
+.data_text{
+	width: 7rem;
+	height: 0.9466666666666667rem;
+	background: #FFFFFF;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 0.32rem;
+	color: #4D5E70;
+	float: left;
+	margin-left: 0.2rem;
+}
+
+.btn {
+	width: 10rem;
+	/*height: 0.9466666666666667rem;*/
+	background: #FFFFFF;
+	line-height: 0.9466666666666667rem;
+	/*overflow: hidden;*/
+}
+
+.btn_button {
+	overflow: hidden;
+	border-bottom: 1px solid #EEEEEE;
+	margin-left: 0.32rem;
+}
+
+.none {
+	border: none;
+}
+
+.btn_button_left {
+	float: left;
+}
+
+.name {
+	/*margin-left: 0.32rem;*/
+	font-size: 0.32rem;
+	color: #4D5E70;
+}
+.none_jiange{
+	margin-left: 0;
+}
+.jiange{
+	margin-left: 0.18rem;
+}
+.data_input{
+	float: left;
+}
+.name_text {
+	font-size: 0.32rem;
+	color: #FF4E00;
+}
+
+.btn_name {
+	width: 7rem;
+	border: none;
+	color: #53575a;
+	font-size: 0.32rem;
+}
+.btn_name_a{
+	width: 7rem;
+	border: none;
+	color: #53575a;
+	font-size: 0.32rem;
+	border: none;
+	outline: none;
+	/*将默认的select选择框样式清除*/
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+}
+
+.btn_name_b{
+	width: 7rem;
+	border: none;
+	color: #53575a;
+	font-size: 0.32rem;
+}
+.btn_name_c{
+	width: 7rem;
+	border: none;
+	color: #53575a;
+	font-size: 0.32rem;
+}
+	
+
+
+
+
+.btn_button_right {
+	float: right;
+	margin-right: 0.32rem;
+	color: #4D5E70;
+}
+
+.btn_button_right img {
+	width: 0.266666666666666rem;
+	height: 0.266666666666666rem;
+}
+
+.prompt{
+	background: #FFFFFF;
+	width: 10rem;
+	height: 0.96rem;
+	margin: 0 auto;
+	line-height: 0.96rem;
+}
+.prompt_span{
+	margin-left: 0.32rem;
+	color: #FF4E00;
+	font-size: 0.29333333333333333rem;
+}
+
+.button {
+	width: 10rem;
+	height: 0.9466666666666667rem;
+	background: #C7D0D5;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 0;
+	border: none;
+	left: 0;
+	font-size: 0.4rem;
+	/*background: none;*/
+}

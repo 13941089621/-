@@ -1,0 +1,166 @@
+ <!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="css/index1.css" />
+		<title>购买保险</title>
+	</head>
+
+	<body>
+		<form action="">
+			<div class="hard">
+				<div class="hard_connet">
+					<div class="left">
+						<img src="img/leftdi.png" />
+						<span>目的地选择</span>
+						<!--<select name="" class="local">
+							<option value="">请选择</option>
+							<option value="1">中国</option>
+							<option value="2">美国</option>
+							<option value="3">韩国</option>
+						</select>-->
+					</div>
+					<div class="right">
+						<select name="" class="local_a">
+							<option value="">请选择</option>
+							<option value="1">中国</option>
+							<option value="2">美国</option>
+							<option value="3">韩国</option>
+							<option value="3">国国s</option>
+						</select>
+						<img src="img/right_logo.png" alt="" />						
+					</div>
+				</div>
+				<div class="connet">
+					<span>如果您选择的线路包含多个国家，您任意选择一个就好。如果是海上巡游，不靠岸的航线，您任意选择一个国家就好，因为保险产品的范围是除大陆外的整个亚洲地区，您选择哪个都行，只要是在保险范围内，在邮轮上发生的医疗费用都是担保的</span>
+				</div>
+				<div class="data">
+					<p class="data_p">
+						<span>保险起止时间</span><span>2017-11-10</span>至<span>2017-11-15</span>
+					</p>
+				</div>
+			</div>
+			<div class="insured">
+				<div class="insured_button">
+					<img src="img/ren.png" alt="" class="insured_img" />
+					<span class="insured_span">受保人信息</span>
+				</div>
+			</div>
+
+			<div class="btn">
+				<div class="btn_button">
+					<div class="btn_button_left">
+						<span class="name">受保人姓名</span>
+						<!--<input type="text" name="" class="btn_name" value="" placeholder="请完善信息"/>-->
+						<!--<span class="btn_name">请完善信息</span>-->
+					</div>
+					<a href="index(1).html">
+						<div class="btn_button_right">
+							<span class="zhi">已完善</span>
+							<img src="img/right_logo.png" alt="" />
+						</div>
+					</a>
+										
+			  
+
+					
+				</div>
+			</div>
+
+			<div class="buttona">
+				<input type="submit" disabled="disabled"  name="" class="button" value="提交信息" />
+			</div>
+		</form>
+
+	</body>
+	<script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">	
+		$(function(){
+			$(".button").on("click",function(){
+				console.log(121111)
+				alert("ss")
+			})
+			
+			
+			$(".local_a").on("change", function(){
+				check()
+			})
+			$(".zhi").on("change", function(){
+				check()
+			})
+			
+			function check (){				
+				var c1 = $(".local_a").val();
+//				var c2 = true;
+				var c2 =$(".zhi").html();
+				console.log(c2)
+				if(c2=="已完善"){
+					console.log("dddddd")
+				}else{
+					console.log("wwww")
+				}
+				
+				
+				var result = false;
+					
+				if (c2 && c1) {
+					result = true;
+				}
+				
+				
+				
+				
+				if (result) {
+					$(".button").css({
+						backgroundColor: "#000"
+					}).attr("disabled", false)
+				} else {
+					$(".button").css({
+						backgroundColor: ""
+					}).attr("disabled", true)
+				}
+			}
+		})
+
+
+//	$(function(){
+//			$(".button").on("click",function(){
+//				console.log(121111)
+//				alert("ss")
+//			})
+//			
+//			
+//			$(".local_a").on("change", function(){
+//				check()
+//			})
+//			
+//			function check (){
+//				var c1 = $(".local_a").val();
+//				var result = false;		
+//				if (c1) {
+//					result = true;
+//				}
+//	
+//				if (result) {
+//					$(".button").css({
+//						backgroundColor: "#000"
+//					}).attr("disabled", false)
+//				} else {
+//					$(".button").css({
+//						backgroundColor: ""
+//					}).attr("disabled", true)
+//				}
+//			}
+//		})
+	
+		
+	</script>
+
+</html>
